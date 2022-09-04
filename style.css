@@ -70,13 +70,14 @@ body {
     font-family: "roboto", sans-serif;
 }
 
-button.sign-up {
+button.sign-up,
+button.sign-up-2 {
     background-color:#3882F6;
     color: white;
     font-weight: 900;
     font-size: medium;
     align-self: flex-start;
-    padding: 8px 16px;
+    padding: 8px 30px;
     font-family: "roboto", sans-serif;
     border-radius: 10px;
 }
@@ -157,3 +158,30 @@ button.sign-up {
     align-self: flex-end;
 }
 
+.container-4 {
+    display: flex;
+    padding: 100px 150px;
+}
+
+.content-4 {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    flex: 1;
+}
+
+button.sign-up-2 {
+    align-self: center;
+    border-color: #F9FAF8;
+}
+
+.container-4 .title {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.container-4 .subtext {
+    color:#F9FAF8;
+    font-size: 18px;
+}
